@@ -21,7 +21,7 @@
       href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
@@ -104,10 +104,18 @@
         <textarea class="col-9 time-block description" id="17"></textarea>
         <button onclick="saveBlock(17)" class="col saveBtn"><i class="far fa-clipboard fa-2x"></i></button>
       </div>
+
+      <div class="row">
+        <div class="col hour">
+          <p>06:00pm</p>
+        </div>
+        <textarea class="col-9 time-block description" id="18"></textarea>
+        <button onclick="saveBlock(18)" class="col saveBtn"><i class="far fa-clipboard fa-2x"></i></button>
+      </div>
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
