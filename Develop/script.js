@@ -21,7 +21,7 @@ function getCurrentClass(rowHour) {
     }
 }
 
-var hours = [9, 10, 11, 12, 13, 14, 15, 16, 17];
+var hours = [9, 10, 11, 12, 13, 14, 15, 16, 17, 18];
 
 for (var i = 0; i < hours.length; i++) {
     setColor(hours[i]);
